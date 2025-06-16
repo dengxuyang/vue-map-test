@@ -1,29 +1,17 @@
-# vue-map-test
 
-This template should help get you started developing with Vue 3 in Vite.
+# vue-map-plugin Demo
 
-## Recommended IDE Setup
+这是一个使用 [vue-map-plugin](https://github.com/your-repo/vue-map-plugin) 的演示网站。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 环境变量配置
 
-## Customize configuration
+使用前请在项目根目录下添加 `.env` 文件，并填写如下内容：
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
+```env
+VITE_AMAP_KEY=你的高德Key
+VITE_AMAP_SECURITY=你的高德安全密钥
+VITE_BMAP_KEY=你的百度Key
+VITE_GOOGLE_KEY=你的Google Key
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Compile and Minify for Production
-
-```sh
-pnpm build
-```
+> **注意：** 请将上述密钥替换为你自己的有效密钥。
